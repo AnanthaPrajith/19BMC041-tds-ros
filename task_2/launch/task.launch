@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch> 
+
+<node   name="two_ints_publisher" pkg="task_2" type="publisher_two_ints.py" args="" output="screen"/>
+<node   name="task2_listner" pkg="task_2" type="listener.py" args="" output="screen"/>
+<node   name="task_subscriber" pkg="task_2" type="subscribe_two_ints.py" args="" output="screen"/>
+
+</launch>
